@@ -55,26 +55,26 @@ function App() {
 
       <img
         className="absolute inset-x-0 bottom-0 block h-44 sm:h-48"
-        src="public/pattern-hills.svg"
+        src="/pattern-hills.svg"
         alt="pattern-hills"
       />
       <div className="absolute inset-x-0 flex items-center justify-center bottom-16 gap-7">
         <a href="">
           <img
             className="sm:w-5"
-            src="public/icon-facebook.svg"
+            src="/icon-facebook.svg"
             alt="icon-facebook"
           />
         </a>
         <a href="">
           <img
             className="sm:w-5"
-            src="public/icon-pinterest.svg"
+            src="/icon-pinterest.svg"
             alt="icon-pinterest"
           />
         </a>
         <a className="sm:w-5" href="https://www.instagram.com/this.mide/">
-          <img src="public/icon-instagram.svg" alt="icon-instagram" />
+          <img src="/icon-instagram.svg" alt="icon-instagram" />
         </a>
       </div>
     </main>
