@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  html{
+    font-family: 'Red Hat Text', sans-serif;
+  }
+}
+
+.fade{
+  animation-name: fade;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-timeline: auto;
+  animation-delay: 1.2s;
+}
+
+.turn{
+  animation-name: turn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-timeline: auto;
+}
+
+@keyframes turn {
+  0% {
+    background: hsl(240, 11%, 23%);
+}
+100% {
+    background: hsl(230, 14%, 17%);
+    transform: translateY(100%) rotateX(-180deg);
+}
+}
+
+@keyframes fade {
+  100% {
+    opacity: 1;
+  }
+}
+
+.tran {
+ transform-style: preserve-3d;
+}
+
+
+.start {
+    margin-block-start: -0.5em;
+    margin-block-end: -0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
